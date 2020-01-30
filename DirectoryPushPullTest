@@ -13,3 +13,7 @@ $ git push --set-upstream origin hotfixJoe (used for the first push to a branch)
 
 Had to use the following code in order to commit this .txt file so that it could be pushed
     $ git add DirectoryPushPullTest 
+    $ git commit -m DirectoryPushPullTest
+
+then 
+$ git push
