@@ -1,0 +1,15 @@
+Testing to see if files out side of qaGitPrac directory will be used in the push pulls
+
+
+$ git push
+fatal: The current branch hotFixJoe has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin hotFixJoe (i used "F" instead of "f" aswell)
+
+
+
+$ git push --set-upstream origin hotfixJoe (used for the first push to a branch)
+
+Had to use the following code in order to commit this .txt file so that it could be pushed
+    $ git add DirectoryPushPullTest 
